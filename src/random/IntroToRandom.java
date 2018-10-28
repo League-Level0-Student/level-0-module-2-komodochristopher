@@ -16,7 +16,7 @@ public class IntroToRandom {
 		Random arg=new Random();
 
 		//4. Limit the random number between 0 and 100
-		int randomChoice=arg.nextInt(101);
+		int randomChoice=arg.nextInt(101);//
 
 		//5. Limit the random number between 25 and 75. Hint: ((highest value - lowest value)+1) + lowest value
 
