@@ -26,7 +26,7 @@ boolean soundPlayed = false;
 void playSound() {
     if (!soundPlayed) {
         Minim minim = new Minim(this);
-        AudioSample sound = minim.loadSample("ding2.wav");
+        AudioSample sound = minim.loadSample("ding1.wav");
         sound.trigger();
         soundPlayed = true;
     }
